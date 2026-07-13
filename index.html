@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geek Retro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="chuva-meteoros" class="meteoros-container"></div>
+    <header class="event-header">
+        <div class="event-image-container">
+            <img src="./logoretro.png" alt="Capa Geek Day" class="banner-img">
+        </div>
+        <div class="event-overlay">
+            <div class="container">
+        
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="menu-mobile-btn" id="menuBtn">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <nav class="main-nav" id="mainNav">
+        <div class="container">
+            <ul class="nav-list">
+                <!-- Adicionado o link para o GeekTalk -->
+               
+                <li><a href="#convidados">Convidados</a></li>
+                <li><a href="#cosplay">Concurso</a></li>
+                <!-- Adicionado o link para a Tarde Nostálgica -->
+                <li><a href="#tarde-nostalgica">Tarde Nostálgica</a></li>
+                <li><a href="#atividades">Atividades</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+<section id="convidados" class="guests-section">
+    <div class="container">
+        <h2 class="section-title">Convidados Especiais</h2>
+        
+        <div class="main-poster-container">
+            <img src="./fotoprincipal.jpeg" alt="" class="main-poster-img">
+        </div>
+
+        <p class="cta-phrase-top">Compre seus ingressos para conhecer nossas estrelas!</p>
+
+        </div>
+    </div>
+</section>
+
+<!-- Área: Tarde Nostálgica (No mesmo formato dos cartões de Convidados) -->
+<section id="tarde-nostalgica" class="guests-section">
+    <div class="container">
+        <h2 class="section-title">Tarde Nostálgica</h2>
+        <p class="section-subtitle">Escolha o seu passaporte e garanta sua vaga!</p>
+        
+        <!-- Usamos uma classe de grid de 3 colunas para acomodar os 3 blocos perfeitamente -->
+        <div class="guests-grid-duo" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));"> 
+            
+            <!-- Espaço 1: SÁBADO -->
+            <div class="guest-card card-alongado">
+                <div class="guest-photo-container">
+                    <!-- Substitua o src pela foto correspondente ao Sábado -->
+                    <img src="./sabadonostalgico.png" alt="Tarde Nostálgica - Sábado" class="guest-img-alongada">
+                </div>
+                <div class="guest-info">
+                    <h3 class="guest-name">Tarde Nostálgica Sábado</h3>
+                    <p class="guest-description">Aproveite uma viagem no tempo com atrações retrô exclusivas, painéis e atividades especiais preparadas para o sábado.</p>
+                    <a href="https://uticket.com.br/evento/tarde-nostalgica-sabado-12-de-setembro/01M6KN19F720OO" target="_blank" class="ticket-btn">COMPRAR INGRESSO</a>
+                </div>
+            </div>
+
+            <!-- Espaço 2: DOMINGO -->
+            <div class="guest-card card-alongado">
+                <div class="guest-photo-container">
+                    <!-- Substitua o src pela foto correspondente ao Domingo -->
+                    <img src="./domingonostalgico.jpg" alt="Tarde Nostálgica - Domingo" class="guest-img-alongada">
+                </div>
+                <div class="guest-info">
+                    <h3 class="guest-name">Tarde Nostálgica Domingo</h3>
+                    <p class="guest-description">nostalgia pura e momentos inesquecíveis.</p>
+                    <a href="https://uticket.com.br/evento/tarde-nostalgica-domingo/01M6KKDP3PV46Z" target="_blank" class="ticket-btn">COMPRAR INGRESSO</a>
+                </div>
+            </div>
+
+            <!-- Espaço 3: COMBO SÁBADO E DOMINGO -->
+            <div class="guest-card card-alongado">
+                <div class="guest-photo-container">
+                    <!-- Substitua o src pela foto correspondente ao Combo -->
+                    <img src="./participantes.jpg" alt="Tarde Nostálgica - Combo" class="guest-img-alongada">
+                </div>
+                <div class="guest-info">
+                    <h3 class="guest-name">Combo Sábado + Domingo</h3>
+                    <p class="guest-description">A experiência completa! Garanta seu acesso para os dois dias do evento com um desconto exclusivo de lote.</p>
+                    <a href="https://uticket.com.br/evento/combo-tarde-nostalgica-sabado-e-domingo/01M6KP2DAUIM3W" target="_blank" class="ticket-btn">GARANTIR COMBO</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+   
+
+    <section id="cosplay" class="cosplay-section">
+        <div class="container">
+            <h2 class="section-title">Concurso de Cosplay</h2>
+            <p class="section-subtitle">Venha fazer parte do nosso concurso de cosplay!</p>
+            
+            <div class="cosplay-days">
+    <!-- CARD SEXTA-FEIRA -->
+    <div class="day-card" style="display: flex; flex-direction: column; padding: 0; overflow: hidden;">
+        <!-- Espaço para a foto da Sexta-Feira -->
+        <div class="cosplay-photo-container" style="width: 100%; height: 400px; overflow: hidden; border-bottom: 3px solid var(--neon-orange);">
+            <img src="./concurso.jpg" alt="Desfile Cosplay" class="cosplay-day-img" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+
+        <!-- Conteúdo do Card (com preenchimento interno ajustado) -->
+        <div class="day-content" style="padding: 25px;">
+            <div class="day-header">
+                <span class="day-number">13</span>
+                <span class="day-name">DOMINGO</span>
+            </div>
+            <h3 class="day-title">Garanta sua vaga!</h3>
+            <p class="day-description">Desfile Cosplay - Domingo</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScOXt0oUCNd8ltzSYcd17lWQu9-JD20l1b6mdQczXKC-_2s1w/viewform" target="_blank" class="register-btn">Inscrever-se</a>
+        </div>
+    </div>
+
+            
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+   <section id="atividades" class="atividades-section">
+    <div class="container">
+        <h2 class="section-title">Atividades do Evento</h2>
+        <p class="section-subtitle">Apresentações, danças e muito mais!</p>
+        
+        <div class="atividades-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px;">
+            
+            <!-- Cartão 1 - Fade Azul -->
+            <div class="atividade-card" style="display: flex; flex-direction: column; height: auto; aspect-ratio: auto; padding: 10px; background: var(--bg-card); border: 2px solid var(--neon-blue); border-radius: 6px; --cor-fade: 0, 70, 255;">
+                <img src="./blackbomb.jpeg" alt="Black bomb" class="expandable-img" style="aspect-ratio: 1/1; object-fit: cover; border-radius: 4px;">
+                <p class="atividade-titulo" style="font-family: 'Orbitron', sans-serif; font-size: 1.2rem; font-weight: 900; text-align: center; margin-top: 10px; color: #ffffff; text-shadow: 0 0 5px var(--neon-blue), 0 0 10px var(--neon-blue); text-transform: uppercase; letter-spacing: 1px;">Black bomb</p>
+            </div>
+
+            <!-- Cartão 2 - Fade Laranja -->
+            <div class="atividade-card" style="display: flex; flex-direction: column; height: auto; aspect-ratio: auto; padding: 10px; background: var(--bg-card); border: 2px solid var(--neon-blue); border-radius: 6px; --cor-fade: 255, 94, 0;">
+                <img src="./Logo BLAZE upgrade sem fundo.png" alt="Blaze" class="expandable-img" style="aspect-ratio: 1/1; object-fit: cover; border-radius: 4px;">
+                <p class="atividade-titulo" style="font-family: 'Orbitron', sans-serif; font-size: 1.2rem; font-weight: 900; text-align: center; margin-top: 10px; color: #ffffff; text-shadow: 0 0 5px var(--neon-orange), 0 0 10px var(--neon-orange); text-transform: uppercase; letter-spacing: 1px;">Blaze</p>
+            </div>
+
+            <!-- Cartão 3 - Fade Rosa/Verde (Ajuste conforme preferir) -->
+            <div class="atividade-card" style="display: flex; flex-direction: column; height: auto; aspect-ratio: auto; padding: 10px; background: var(--bg-card); border: 2px solid var(--neon-blue); border-radius: 6px; --cor-fade: 226, 21, 141;">
+                <img src="./daydream.jpeg" alt="Daydream" class="expandable-img" style="aspect-ratio: 1/1; object-fit: cover; border-radius: 4px;">
+                <p class="atividade-titulo" style="font-family: 'Orbitron', sans-serif; font-size: 1.2rem; font-weight: 900; text-align: center; margin-top: 10px; color: #ffffff; text-shadow: 0 0 5px var(--neon-pink), 0 0 10px var(--neon-pink); text-transform: uppercase; letter-spacing: 1px;">Daydream</p>
+            </div>
+
+            <!-- Cartão 4 - Fade Roxo -->
+            <div class="atividade-card" style="display: flex; flex-direction: column; height: auto; aspect-ratio: auto; padding: 10px; background: var(--bg-card); border: 2px solid var(--neon-blue); border-radius: 6px; --cor-fade: 130, 10, 200;">
+                <img src="./adriana.jpeg" alt="Show Adriana" class="expandable-img" style="aspect-ratio: 1/1; object-fit: cover; border-radius: 4px;">
+                <p class="atividade-titulo" style="font-family: 'Orbitron', sans-serif; font-size: 1.2rem; font-weight: 900; text-align: center; margin-top: 10px; color: #ffffff; text-shadow: 0 0 5px var(--neon-blue), 0 0 10px var(--neon-blue); text-transform: uppercase; letter-spacing: 1px;">Show Adriana</p>
+            </div>
+
+            <!-- Cartão 5 - Fade Vermelho -->
+            <div class="atividade-card" style="display: flex; flex-direction: column; height: auto; aspect-ratio: auto; padding: 10px; background: var(--bg-card); border: 2px solid var(--neon-blue); border-radius: 6px; --cor-fade: 255, 0, 0;">
+                <img src="./mj.jpeg" alt="Show Michael Jackson" class="expandable-img" style="aspect-ratio: 1/1; object-fit: cover; border-radius: 4px;">
+                <p class="atividade-titulo" style="font-family: 'Orbitron', sans-serif; font-size: 1.2rem; font-weight: 900; text-align: center; margin-top: 10px; color: #ffffff; text-shadow: 0 0 5px var(--neon-orange), 0 0 10px var(--neon-orange); text-transform: uppercase; letter-spacing: 1px;">Show Michael Jackson</p>
+            </div>
+
+            <!-- Cartão 6 - Fade Amarelo -->
+            <div class="atividade-card" style="display: flex; flex-direction: column; height: auto; aspect-ratio: auto; padding: 10px; background: var(--bg-card); border: 2px solid var(--neon-blue); border-radius: 6px; --cor-fade: 231, 245, 34;">
+                <img src="./LOGO KING OF POP CELEBRATION.png" alt="King of Pop" class="expandable-img" style="aspect-ratio: 1/1; object-fit: cover; border-radius: 4px;">
+                <p class="atividade-titulo" style="font-family: 'Orbitron', sans-serif; font-size: 1.2rem; font-weight: 900; text-align: center; margin-top: 10px; color: #ffffff; text-shadow: 0 0 5px var(--neon-orange), 0 0 10px var(--neon-orange); text-transform: uppercase; letter-spacing: 1px;">King of Pop</p>
+            </div>
+
+            <!-- Cartão 7 - Fade Ciano -->
+            <div class="atividade-card" style="display: flex; flex-direction: column; height: auto; aspect-ratio: auto; padding: 10px; background: var(--bg-card); border: 2px solid var(--neon-blue); border-radius: 6px; --cor-fade: 0, 240, 255;">
+                <img src="./CLAUDINEI JACKSON LOGO PRATA.png" alt="Descrição da Atividade" class="expandable-img" style="aspect-ratio: 1/1; object-fit: cover; border-radius: 4px;">
+            </div>
+
+            <!-- Cartão 8 - Fade Verde Limão -->
+            <div class="atividade-card" style="display: flex; flex-direction: column; height: auto; aspect-ratio: auto; padding: 10px; background: var(--bg-card); border: 2px solid var(--neon-blue); border-radius: 6px; --cor-fade: 19, 209, 114;">
+                <img src="./CLAUDINEI JACKSON SMOOTH CRIMINAL SEM FUNDO PITAGORAS.png" alt="Descrição da Atividade" class="expandable-img" style="aspect-ratio: 1/1; object-fit: cover; border-radius: 4px;">
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<div id="imageModal" class="modal">
+    <span class="close-modal">&times;</span>
+    <img class="modal-content" id="imgFull">
+</div>
+
+
+
+    <section id="contato" class="contato-section">
+        <div class="container">
+            <h2 class="section-title">Entre em Contato</h2>
+            <p class="section-subtitle">Fale com a organização e acompanhe nossas redes!</p>
+            
+            <div class="contato-content">
+                <div class="contato-box">
+                    <h3>E-mails Oficiais</h3>
+                    <a href="mailto:geekdayeventos@gmail.com" class="email-link">geekdayeventos@gmail.com</a>
+                    <a href="mailto:Contato@geekday.org" class="email-link">Contato@geekday.org</a>
+                </div>
+
+                <div class="contato-box">
+                    <h3>Siga o Geek Day</h3>
+                    <div class="social-buttons">
+                        <a href="https://instagram.com/geekdayeventos" target="_blank" class="social-btn btn-insta">Instagram</a>
+                        <a href="https://tiktok.com/@geekdaycast" target="_blank" class="social-btn btn-tiktok">TikTok</a>
+                        <a href="https://youtube.com/@geekdayeventos" target="_blank" class="social-btn btn-youtube">YouTube</a>
+                    <a href="https://www.instagram.com/geekretroo?igsh=MWp3N3A2aDY2dzBhZA==" target="_blank" class="social-btn btn-retrogeek">Siga o Retrogeek</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; Geek Day - Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
